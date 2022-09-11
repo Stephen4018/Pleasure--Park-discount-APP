@@ -15,10 +15,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
   position: sticky;
   top: 0;
   z-index: 1;
+  height: 70px;
   .logo img {
     width: 100px;
     margin-left: 50px;
@@ -34,8 +34,8 @@ body {
           padding: 0.125rem 0.6025rem;
           border-radius: 5px;
           font-size: 20px;
-        //   background: rgb(71, 37, 77);
-        //   color: white;
+          //   background: rgb(71, 37, 77);
+          //   color: white;
         }
       }
     }
@@ -60,24 +60,23 @@ body {
       margin-top: 4px;
       line-height: 1.4;
     }
-    
+
     .link {
       margin-top: 31px;
       margin-bottom: 12px;
-    
+
       button {
         padding: 1rem 4.375rem;
         border-radius: 5px;
         font-size: 20px;
         background: rgb(71, 37, 77);
         color: white;
-        
       }
     }
   }
   .main-left {
     margin-right: 50px;
-    margin-top: 70px;
+    margin-top: 75px;
   }
 }
 .icons {
@@ -98,13 +97,13 @@ body {
     position: relative;
     bottom: 580px;
     left: 50px;
-    color: grey;
+    color: black;
   }
 
   .fa-vr-cardboard {
+    left: 450px;
     position: relative;
     bottom: 600px;
-    left: 450px;
   }
   .fa-basketball {
     position: relative;
